@@ -1,0 +1,7 @@
+
+
+pipelines:
+  default:
+    - step:
+        script:
+          - git push --mirror git@github.com:dhirajsharma2040/standalone-activemq-example.git
